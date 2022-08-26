@@ -1,0 +1,11 @@
+com.manishblogapp
+com.manishblogapp.config
+com.manishblogapp.controllers
+com.manishblogapp.entities
+com.manishblogapp.exceptions
+com.manishblogapp.payloads
+com.manishblogapp.repositories
+com.manishblogapp.security
+com.manishblogapp.services
+com.manishblogapp.servicetests
+com.manishblogapp.utils

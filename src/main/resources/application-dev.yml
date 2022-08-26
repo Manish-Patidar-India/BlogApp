@@ -1,0 +1,21 @@
+blog:
+  post:
+    image: http://localhost:8080/api/post/image/
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: root
+    url: jdbc:postgresql://localhost:5432/blogdb
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+    show-sql: true
